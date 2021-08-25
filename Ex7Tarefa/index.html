@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - REVISÃO</title>
+</head>
+<body>
+        <form method="POST" action="php7.PHP"></formmethod>
+        <fieldset id="nome">
+            <legend>
+                <p>Identificação do Usuário</p>
+            </legend>
+                <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"> </p>
+
+                <p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 digitos"></p>
+
+                
+                <p><label for="cEmail">E-mail:</label> <input type="email" name="tEmail" id="cEmail" size = "20" maxlength="40"> </p>
+                <fieldset id="sexo">
+                    <legend>Sexo:</legend>
+                        <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label> <br>
+                        <input type="radio" name="tSexo" id="cFem" checked> <label for="cFem">Feminino</label>
+                   
+                </fieldset>
+                <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc">
+
+                </p>
+        </fieldset>
+       
+    
+<fieldset>
+</select></p>
+<p>Estado:</p>
+<select name="tEst" id="cEst">
+    <optgroup label="Região Sudeste">
+    <option value="RJ">Rio de Janeiro</option>
+    <option selected value="SP">São Paulo</option>
+    <option value="MG">Minas Gerais</option>
+    </optgroup>
+</select></p>
+        <p><label for="cCid">Cidade:</label>
+        <input type="text"name="tCid"id="cCid"maxlength="40"size="20"placeholder="Digite a cidade"list="cidades"></p>
+        <data listid="cidades"><option value="SãoPaulo">
+        </option><option value="Araras"></option><option value="Araraquara">
+        </option><option value="Piracicaba"></option></datalist>
+        </fieldset>
+
+
+        <fieldset>
+        <p><label for="cUrg">Grau de Urgência:</label>Min<inpust type="range"name="tUrg"id="cUrg"min="0"max="10"step="2">Max</p>
+        <p><label for="cMsg">Mensagem:</label><text areaname="tMsg"id="cMsg"cols="30"rows="10"placeholder="Digite aqui suamensagem"></textarea></p>
+        <p><input type="checkbox"name="tPed"id="cPed"checked><label for="cPed">Gostaria de adquirir um iPhone quando disponível</label></p>
+        <p><label for="cCor">Cor:</label><input type="color"name="tCor"id="cCor"value="#000"></p>
+        <p><label for="cQtd">Quantidade:</label><input type="number"name="tQtd"id="cId"min=0 max=5 place holder="Informe aquantidade"/></p>
+        <p><label for="cTot">Preço Total:R$</label><input type="text"name="tTot"id="cTot"disabled></p>
+    </fieldset>
+        <p><button type="submit">Enviar</button></p>
+
+    </form>
+</body>
+</html>
